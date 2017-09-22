@@ -1,0 +1,39 @@
+{
+  "name": "card-status",
+  "version": "1.0.0",
+  "description": "Status page for a headless rpi application",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "start": "webpack-dev-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/nabrahamson/reader-status.git"
+  },
+  "keywords": [
+    "react",
+    "logs",
+    "status"
+  ],
+  "author": "Noah Abrahamson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nabrahamson/reader-status/issues"
+  },
+  "homepage": "https://github.com/nabrahamson/reader-status#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-react": "^6.24.1",
+    "html-webpack-plugin": "^2.30.1",
+    "path": "^0.12.7",
+    "webpack": "^3.6.0",
+    "webpack-dev-server": "^2.8.2"
+  },
+  "dependencies": {
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1"
+  }
+}
