@@ -1,7 +1,7 @@
 {
-  "name": "card-status",
+  "name": "react-base",
   "version": "1.0.0",
-  "description": "Status page for a headless rpi application",
+  "description": "source for noahabrahamson.com",
   "main": "index.js",
   "scripts": {
     "test": "mocha",
@@ -9,19 +9,20 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/nabrahamson/reader-status.git"
+    "url": "git+ssh://git@github.com/nabrahamson/react-base.git"
   },
   "keywords": [
     "react",
     "logs",
-    "status"
+    "status",
+    "bootstrap"
   ],
   "author": "Noah Abrahamson",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/nabrahamson/reader-status/issues"
+    "url": "https://github.com/nabrahamson/react-base/issues"
   },
-  "homepage": "https://github.com/nabrahamson/reader-status#readme",
+  "homepage": "https://github.com/nabrahamson/react-base#readme",
   "devDependencies": {
     "babel-core": "^6.26.0",
     "babel-loader": "^7.1.2",
